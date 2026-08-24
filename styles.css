@@ -22,7 +22,7 @@ button,input,textarea{font:inherit}
 .topbar{position:sticky;top:0;z-index:30;background:rgba(44,12,56,.97);color:#fff;backdrop-filter:blur(10px)}
 .nav{min-height:72px;display:flex;align-items:center;gap:22px}
 .brand{display:flex;align-items:center;gap:11px;margin-right:auto}
-.brand-mark{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,var(--gold),#ffb517);color:var(--purple-dark);font-weight:900;font-family:Montserrat}
+.brand-logo{width:54px;height:54px;object-fit:contain;display:block;flex-shrink:0}
 .brand strong{display:block;font-family:Montserrat}
 .brand small{display:block;color:#d7c9dc;font-size:.75rem}
 nav{display:flex;gap:20px;font-weight:700}
@@ -159,6 +159,7 @@ footer{background:#1b0a22;color:#fff;padding:34px 0}
 }
 @media(max-width:620px){
   .container{width:min(100% - 22px,1180px)}
+  .brand-logo{width:48px;height:48px}
   .brand div{display:none}
   h1{font-size:3.4rem}
   .hero-grid{gap:30px}
