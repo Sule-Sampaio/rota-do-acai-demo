@@ -129,3 +129,11 @@ rota-do-acai-demo/
 ├── styles.css
 ├── script.js
 └── README.md
+
+
+## Versão 3
+
+- Logo oficial aplicada ao cabeçalho.
+- Melhorias na experiência mobile.
+- Botão flutuante da sacola aparece somente quando há produtos adicionados.
+- Foto principal otimizada no celular para facilitar o acesso ao conteúdo e ao cardápio.

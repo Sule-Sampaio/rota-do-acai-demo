@@ -100,7 +100,8 @@ function renderCart(){
   const total=state.cart.reduce((s,i)=>s+i.price*i.qty,0);
   $("#cartCount").textContent=qty;
   $("#cartTotal").textContent=money(total);
-  $("#floatingText").textContent=qty?`Sacola (${qty}) • ${money(total)}`:"Ver sacola";
+  $("#floatingText").textContent=`Sacola (${qty}) • ${money(total)}`;
+  $("#floatingCart").classList.toggle("visible", qty > 0);
   if(!qty){
     $("#cartItems").innerHTML=`<div class="empty"><div style="font-size:2.3rem">🫐</div><h3>Sua sacola está vazia</h3><p>Escolha um produto para começar.</p></div>`;
     return;
