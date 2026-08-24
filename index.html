@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demonstração de cardápio digital da Rota do Açaí.">
+  <title>Rota do Açaí | Cardápio Digital DEMO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">R</span>
+        <div><strong>Rota do Açaí</strong><small>Cardápio Digital</small></div>
+      </a>
+      <nav>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#horario">Horário</a>
+      </nav>
+      <button id="openCart" class="cart-btn">Sacola <span id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="demo-badge">DEMONSTRAÇÃO NÃO OFICIAL</span>
+          <p class="eyebrow">AÇAÍ • COPOS • KIDS • BARCA</p>
+          <h1>Seu açaí, do seu jeito.</h1>
+          <p class="hero-text">Escolha seu produto, personalize com complementos e envie o pedido pronto para o WhatsApp da Rota do Açaí.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#cardapio">Montar pedido</a>
+            <a class="btn secondary" href="https://www.instagram.com/rota_do_acai2/" target="_blank" rel="noopener">Instagram</a>
+          </div>
+          <div class="info-strip">
+            <span>📍 São Jorge • Jaguaquara-BA</span>
+            <span>🕐 13h às 20h30</span>
+            <span>📲 (73) 99936-0975</span>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/acai-tradicional.png" alt="Açaí tradicional da Rota do Açaí">
+          <span class="floating-tag">💜 Rota do Açaí</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <div class="container notice-card">
+        <strong>⚠️ Demo comercial</strong>
+        <span>Os preços abaixo são demonstrativos porque o cardápio oficial e a taxa de entrega ainda não foram informados. Antes do uso oficial, os valores serão substituídos pelos dados fornecidos pela loja.</span>
+      </div>
+    </section>
+
+    <section class="menu-section" id="cardapio">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">MONTE SEU PEDIDO</p>
+            <h2>Destaques da Rota</h2>
+          </div>
+          <input id="searchInput" type="search" placeholder="Buscar produto..." aria-label="Buscar produto">
+        </div>
+
+        <div class="category-tabs" id="categoryTabs"></div>
+        <div id="productsGrid" class="products-grid"></div>
+      </div>
+    </section>
+
+    <section class="how-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">RÁPIDO E SIMPLES</p>
+            <h2>Como funciona</h2>
+          </div>
+        </div>
+        <div class="steps-grid">
+          <article><span>1</span><h3>Escolha</h3><p>Selecione um dos produtos do cardápio.</p></article>
+          <article><span>2</span><h3>Personalize</h3><p>Adicione frutas, complementos e observações.</p></article>
+          <article><span>3</span><h3>Finalize</h3><p>Escolha entrega ou retirada e envie pelo WhatsApp.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="location-section" id="localizacao">
+      <div class="container location-grid">
+        <div>
+          <p class="eyebrow">ONDE ESTAMOS</p>
+          <h2>Rota do Açaí</h2>
+          <p class="location-copy">Rua Professora Carmen Palma, nº 12 — Bairro São Jorge, Jaguaquara - BA.</p>
+          <p><strong>Referência:</strong> abaixo da Lotérica.</p>
+          <div class="hero-actions">
+            <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rua%20Professora%20Carmen%20Palma%2012%20Jaguaquara%20BA">Como chegar</a>
+            <a class="btn secondary" target="_blank" rel="noopener" href="https://wa.me/5573999360975">WhatsApp</a>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="assets/endereco.png" alt="Endereço da Rota do Açaí">
+        </div>
+      </div>
+    </section>
+
+    <section class="hours-section" id="horario">
+      <div class="container hours-card">
+        <div>
+          <p class="eyebrow">HORÁRIO DE FUNCIONAMENTO</p>
+          <h2>Todos os dias</h2>
+        </div>
+        <div class="hours-time">13h <span>até</span> 20h30</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><strong>Rota do Açaí</strong><p>Demonstração de cardápio digital.</p></div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/rota_do_acai2/" target="_blank" rel="noopener">@rota_do_acai2</a>
+        <a href="https://wa.me/5573999360975" target="_blank" rel="noopener">(73) 99936-0975</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="drawer-head">
+      <div><p class="eyebrow">SEU PEDIDO</p><h2>Sacola</h2></div>
+      <button class="icon-btn" id="closeCart" aria-label="Fechar">✕</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+
+    <form id="checkoutForm" class="checkout">
+      <section class="checkout-block">
+        <h3>1. Como deseja receber?</h3>
+        <div class="choices">
+          <label><input type="radio" name="service" value="Retirada" checked><span>🏪 Retirada</span></label>
+          <label><input type="radio" name="service" value="Entrega"><span>🛵 Entrega</span></label>
+        </div>
+        <p class="small-note">Taxa de entrega: <strong>a confirmar com a loja</strong>.</p>
+      </section>
+
+      <section class="checkout-block">
+        <h3>2. Seus dados</h3>
+        <label class="field"><span>Nome *</span><input id="customerName" type="text" placeholder="Seu nome"></label>
+      </section>
+
+      <section class="checkout-block hidden" id="deliveryFields">
+        <h3>3. Endereço de entrega</h3>
+        <label class="field"><span>Rua / Avenida *</span><input id="street" type="text"></label>
+        <div class="field-grid">
+          <label class="field"><span>Número *</span><input id="number" type="text"></label>
+          <label class="field"><span>Bairro *</span><input id="district" type="text"></label>
+        </div>
+        <label class="field"><span>Complemento</span><input id="complement" type="text"></label>
+        <label class="field"><span>Referência</span><input id="reference" type="text"></label>
+      </section>
+
+      <section class="checkout-block">
+        <h3>4. Observações gerais</h3>
+        <label class="field"><textarea id="generalNotes" rows="3" placeholder="Ex.: retirar na loja às 18h..."></textarea></label>
+      </section>
+
+      <div class="cart-footer">
+        <div class="total-row"><span>Total demonstrativo</span><strong id="cartTotal">R$ 0,00</strong></div>
+        <small>Valores e taxa de entrega serão confirmados pela loja.</small>
+        <button class="btn primary full" type="submit">Enviar pedido no WhatsApp</button>
+      </div>
+    </form>
+  </aside>
+
+  <div class="customizer-overlay" id="customizerOverlay"></div>
+  <section class="customizer-modal" id="customizerModal">
+    <div class="drawer-head">
+      <div><p class="eyebrow">PERSONALIZE</p><h2 id="customizerTitle">Produto</h2></div>
+      <button class="icon-btn" id="closeCustomizer">✕</button>
+    </div>
+    <div class="customizer-body">
+      <div class="product-summary" id="customizerSummary"></div>
+      <div class="customizer-section">
+        <h3>Frutas</h3>
+        <div id="fruitOptions" class="addon-list"></div>
+      </div>
+      <div class="customizer-section">
+        <h3>Complementos</h3>
+        <div id="addonOptions" class="addon-list"></div>
+      </div>
+      <div class="customizer-section">
+        <h3>Observação do item</h3>
+        <textarea id="itemNote" rows="3" placeholder="Ex.: sem granola..."></textarea>
+      </div>
+    </div>
+    <div class="customizer-footer">
+      <div><small>Total demonstrativo</small><strong id="customizerTotal">R$ 0,00</strong></div>
+      <button class="btn primary" id="confirmCustomizer">Adicionar à sacola</button>
+    </div>
+  </section>
+
+  <button class="floating-cart" id="floatingCart">🛍️ <span id="floatingText">Ver sacola</span></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
